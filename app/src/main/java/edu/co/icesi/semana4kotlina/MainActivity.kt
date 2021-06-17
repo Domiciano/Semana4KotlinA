@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        ActivityCompat.requestPermissions(this, arrayOf(
+        requestPermissions(arrayOf(
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
             Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.CAMERA,
